@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+h1{
+    background-color: #5A5A59;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.cuadrado1{
+    background-color: #000000;
+    width: 200px ;
+    height: 200px ;
+    margin: 50px;
+    transition: all 2s;
+    animation: cuadrado1 2s;
+}
+.cuadrado1:hover{
+    background-color: #294C66;
+    border-radius: 50%;
+}
+
+
+
+.cuadrado2{
+    background-color:  #B8221F;
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    transition: all 2s;
+    animation: cuadrado2 2s ;
+}
+
+.cuadrado2:hover{
+    background-color: #4A0C00;
+    border-radius: 50%;
+}
+
+@keyframes cuadrado1{
+    100%{
+        transform: translate(200px);
+    }
+    0%{
+    }
+}
+
+@keyframes cuadrado2{
+    100%{
+        transform: translate(200px);
+    }
+    0%{
+
+    }
+}
